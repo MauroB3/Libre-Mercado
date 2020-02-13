@@ -7,8 +7,8 @@ import java.util.Properties;
 
 public class EmailService {
 
-    private static final String senderEmail = "libremercadoing@gmail.com";//change with your sender email
-    private static final String senderPassword = "libre1234libre";//change with your sender password
+    private static final String senderEmail = "mail";
+    private static final String senderPassword = "password";
 
     public static void sendAsHtml(String destinatario, String titulo, String html) throws MessagingException {
         Session session = createSession();
